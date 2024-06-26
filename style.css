@@ -172,3 +172,12 @@ ul {
 .announcements .section-content div:first-child {
     border: none;
 }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li a:hover {
+    font-style: italic;
+}
