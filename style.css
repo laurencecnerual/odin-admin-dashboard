@@ -88,3 +88,11 @@ ul {
     color: #6b7280;
     font-size: 0.8rem;
 }
+
+.announcements .section-content .card {
+    border-top: 1px solid #e5e7eb;
+}
+
+.announcements .section-content div:first-child {
+    border: none;
+}
