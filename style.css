@@ -73,7 +73,7 @@ button:active {
     grid-template-columns: 1fr 7fr;
 }
 
-.img2 {
+.welcome-area .profile-pic {
     grid-row: 1 / 3;
 }
 
@@ -182,4 +182,11 @@ a:hover {
 
 li a:active {
     font-style: italic;
+}
+
+.card-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    padding: 10px;
 }
