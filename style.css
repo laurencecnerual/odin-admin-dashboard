@@ -137,6 +137,14 @@ section.projects {
     border-left: 6px solid #fcd34d;
 }
 
+.card-title {
+    margin-bottom: 0;
+}
+
+.card-text {
+    margin-top: 5px;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
