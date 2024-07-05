@@ -188,11 +188,16 @@ li a:active {
     font-style: italic;
 }
 
-.card-icons {
+.card-icon-set {
     display: flex;
     justify-content: flex-end;
     gap: 15px;
     padding: 10px;
+}
+
+.card-icon {
+    width: 18px;
+    height: auto;
 }
 
 .trending .section-content .card {
