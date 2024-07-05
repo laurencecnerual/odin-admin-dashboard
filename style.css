@@ -206,3 +206,20 @@ li a:active {
     justify-content: center;
     align-items: center;
 }
+
+.nav-icon {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(159deg) brightness(103%) contrast(101%);
+    width: 24px;
+    height: auto;
+}
+
+#logo-icon {
+    width: 36px;
+    height: auto;
+}
+
+li a, h1 a {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
