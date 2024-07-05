@@ -42,6 +42,7 @@ header {
 .user-area {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     gap: 30px;
     margin-right: 30px;
 }
@@ -67,6 +68,11 @@ button:active {
 
 .search-area{
     grid-template-columns: 1fr 11fr;
+    align-items: center;
+}
+
+input {
+    height: 100%;
 }
 
 .welcome-area {
@@ -196,16 +202,23 @@ li a:active {
 
 .card-icon {
     width: 18px;
+}
+
+.card-icon, .header-icon {
     height: auto;
     padding: 5px;
     border-radius: 5px;
 }
 
-.card-icon:hover {
+.header-icon {
+    width: 20px;
+}
+
+.card-icon:hover, .header-icon:hover {
     background-color: #e5e7eb;
 }
 
-.card-icon:active {
+.card-icon:active, .header-icon:active {
     background-color: #d1d5db;
 }
 
