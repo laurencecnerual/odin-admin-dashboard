@@ -192,13 +192,23 @@ li a:active {
     display: flex;
     justify-content: flex-end;
     gap: 15px;
-    padding: 10px;
 }
 
 .card-icon {
     width: 18px;
     height: auto;
+    padding: 5px;
+    border-radius: 5px;
 }
+
+.card-icon:hover {
+    background-color: #e5e7eb;
+}
+
+.card-icon:active {
+    background-color: #d1d5db;
+}
+
 
 .trending .section-content .card {
     display: grid;
