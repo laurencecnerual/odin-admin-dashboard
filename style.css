@@ -5,7 +5,7 @@
 
 body {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 5fr;
     font-family: Roboto;
     margin: 0;
     height: 100vh;
@@ -125,7 +125,7 @@ section.projects {
 
 .projects .section-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 15px;
 }
 
