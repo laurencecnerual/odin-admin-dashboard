@@ -51,11 +51,13 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     margin: 5px 15px;
+    align-items: center;
 }
 
 button {
     border-radius: 30px;
     border: none;
+    height: 40px;
 }
 
 button:hover {
@@ -85,6 +87,7 @@ input {
 
 .greeting {
     font-size: 0.8rem;
+    align-self: center;
 }
 
 .personalization, .user-account, button {
@@ -114,7 +117,7 @@ aside, button {
 
 main {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
     margin: 15px;
     gap: 15px;
 }
@@ -230,9 +233,33 @@ li a:active {
 
 .welcome-area .profile-pic, .card-pic {
     grid-row: 1 / 3;
-    display: grid;
+    margin: auto;
+    /* display: grid;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+}
+
+.card-pic, .menu-pic {
+    height: 50px;
+    width: 50px;
+}
+
+.profile-pic {
+    height: 65px;
+    width: 65px;
+}
+
+img[src*="./images/"] {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+img[src*="bird.jpg"] {
+    object-position: 20% 0;
+}
+
+img[src*="cool-cat.jpg"] {
+    object-position: 65% 0;
 }
 
 .nav-icon {
