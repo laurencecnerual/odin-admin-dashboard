@@ -73,8 +73,18 @@ button:active {
     align-items: center;
 }
 
+label a {
+    display: grid;
+    justify-items: end;
+}
+
+label a img {
+    margin-right: 10px;
+}
+
+
 input {
-    height: 80%;
+    height: 70%;
 }
 
 .welcome-area {
