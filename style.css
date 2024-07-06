@@ -138,6 +138,10 @@ section.projects {
     padding: 5px 15px;
 }
 
+.trending .section-content {
+    padding: 5px 15px 5px 8px;
+}
+
 .announcements .section-content, .trending .section-content {
     display: grid;
 }
